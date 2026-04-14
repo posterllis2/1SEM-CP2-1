@@ -1,0 +1,13 @@
+print("* SISTEMA DE CÁLCULO SALARIAL *")
+nome = input("Nome do Funcionário: ")
+print("[1] Gerente")
+print("[2] Analista")
+print("[3] Assistente")
+print("[4] Estagiário")
+cargo = int(input("Número do cargo: "))
+salario_base = float(input("Salário Base: R$ "))
+horas_trabalhadas = float(input("Horas trabalhadas: "))
+faltas_mes = int(input("Faltas no mês: "))
+bonus = input("Bônus por desempenho (S/N): ")
+
+valor_hora_extra = (salario_base * 0.015)

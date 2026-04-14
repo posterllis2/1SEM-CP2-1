@@ -11,18 +11,19 @@ C = lado[2]
 
 if A >= (B + C):
     print("NÃO FORMA TRIANGULO")
+    quit()
 else:
-    if A**2 == (B**2 + C**2):
-        print("TRIANGULO RETANGULO")
+    if A == B == C:
+        print("TRIANGULO EQUILATERO")
     else:
-        if A**2 > (B**2 + C**2):
-            print("TRIANGULO OBTUSANGULO")
-        else:
-            if A**2 < (B**2 + C++2):
-                print("TRIANGULO ACUTANGULO")
-            else:
-                if A == B == C:
-                    print("TRIANGULO EQUILATERO")
-                else:
-                    if A == B or A == C or B == C:
-                        print(" TRIANGULO ISOSCELES")
+        if A == B or A == C or B == C:
+            print(" TRIANGULO ISOSCELES")
+
+if A**2 == (B**2 + C**2):
+    print("TRIANGULO RETANGULO")
+else:
+    if A**2 > (B**2 + C**2):
+        print("TRIANGULO OBTUSANGULO")
+    else:
+        if A**2 < (B**2 + C++2):
+            print("TRIANGULO ACUTANGULO")
